@@ -1,9 +1,8 @@
-<!doctype html>
 <html>
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>我的观影 | Gridea</title>
+<title>1.1Markdown语法 | Gridea</title>
 <meta name="description" content="温故而知新" />
 <link rel="shortcut icon" href="https://blog.qsgy.tk/favicon.ico">
 <link rel="stylesheet" href="https://blog.qsgy.tk/styles/main.css">
@@ -23,13 +22,25 @@
 <script src="https://blog.qsgy.tk/media/js/functions.js"></script>
 <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
     <meta name="referrer" content="never">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iMuFeng/bmdb@1.8.0/dist/Bmdb.min.css">
-    <script type='text/javascript' src='https://cdn.jsdelivr.net/gh/iMuFeng/bmdb@1.8.0/dist/Bmdb.min.js'></script>
+    <meta name="description" content="标题
+#+空格+文字为标题
+标题一共六级。
+字体
+文字两端加一个星号为斜体，加两个星号为加粗，加两个波浪号为删除线。
+123
+123
+123
+123
+样式
+代码
+两组内为行内代码print(3)`
+两组```内为大段代码且可以标记语言类型
+..." />
+    <meta name="keywords" content="JavaSE,Java全栈学习路线" />
+    <script src="https://blog.qsgy.tk/media/js/waterfall.min.js"></script>
+    <script src="https://blog.qsgy.tk/media/js/prism.min.js"></script>
   </head>
   <body>
-    <!-- start: #wrapper -->
-    <div class="wrapper">
-      
             <header id="header" class="grid-container">
         <!-- start: .menu-wrapper -->
         <div class="menu-mobile"> 
@@ -96,14 +107,165 @@
         </div>
       </div>
 
-      <main id="friends" class="main fullcover no-sidebar content">
-        <div class="grid-container module-wrapper enable-masonry aos-init aos-animate" data-aos="fade-up">
+      <main id="single" class="main grid-container fullcover no-sidebar aos-init aos-animate" data-aos="fade">
+
+        <div class="center content">
+          <div class="featured-image cover" style="background-image: url('https://blog.qsgy.tk/post-images/11markdown-yu-fa.jpg');">
+            <div class="meta top"> 
+              <time class="meta-info" style="float:left;" datetime="2021-02-01"><i class="fa fa-calendar"></i><span class="lately">1 天前</span></time>
+              
+              <a href="https://blog.qsgy.tk/post/11markdown-yu-fa/#comments" class="comments meta-info" title="">
+                <i class="fa fa-comment remixicon"></i><span class="comment-count valine-comment-count" data-xid="/11markdown-yu-fa/"> </span>
+              </a>
+              <span id="/11markdown-yu-fa/" class="leancloud_visitors views-counter meta-info" title=""><i class="fa fa-leancloud remixicon"></i><span class="leancloud-visitors-count"></span></span>
+              
+            </div>
+            <div class="info">
+              <div class="tags ">
+                
+                      <a href="https://blog.qsgy.tk/tag/N9RtM7l8d/" class="ctag ctag-0 ctag-N9RtM7l8d" aria-label="">JavaSE</a>
+                    
+                      <a href="https://blog.qsgy.tk/tag/NIEI4_rYt/" class="ctag ctag-1 ctag-NIEI4_rYt" aria-label="">Java全栈学习路线</a>
+                    
+              </div>
+              <h1 class="title ularge white bold">1.1Markdown语法</h1>
+            </div>
+          </div>
+        </div>  
+
         <div class="epcl-page-wrapper">
-          <div class="section-content" style="margin-top:3em;"></div>
-        </div>
-        </div>
+          <div class="left-content grid-70 np-mobile">
+            <article class="main-article post">
+              <section class="post-content">
+                <div class="text">
+                  <h1 id="标题">标题</h1>
+<p>#+空格+文字为标题<br>
+标题一共六级。</p>
+<h1 id="字体">字体</h1>
+<p>文字两端加一个星号为斜体，加两个星号为加粗，加两个波浪号为删除线。<br>
+<em>123</em><br>
+<strong>123</strong><br>
+<em><strong>123</strong></em><br>
+<s>123</s></p>
+<h1 id="样式">样式</h1>
+<h2 id="代码">代码</h2>
+<p>两组<code>内为行内代码</code>print(3)`<br>
+两组```内为大段代码且可以标记语言类型</p>
+<pre><code class="language-python">import numpy as np
+a=np.list()
+</code></pre>
+<h2 id="引用">引用</h2>
+<p><code>&gt;+文字 为引用格式</code></p>
+<blockquote>
+<p>生而为人，我很抱歉</p>
+</blockquote>
+<h2 id="分割线">分割线</h2>
+<h2 id="分隔线为三个-号或三个号-123">分隔线为三个-号或三个*号。<br>
+123</h2>
+<p>123</p>
+<hr>
+<h2 id="插入图片与视频">插入图片与视频</h2>
+<h3 id="插入图片">插入图片</h3>
+<p><code>![]()</code>为图片插入格式，[]中为鼠标在图片上时的文字，()中为地址，可以是本地或网络图片。<br>
+<img src="https://blog.qsgy.tk/post-images/1612168460492.jpg" alt="nier" loading="lazy"></p>
+<h3 id="插入视频">插入视频</h3>
+<p><code>&lt;iframe src=&quot;&quot;&gt;&lt;/iframe&gt;</code>为视频插入格式，&quot;&quot;中为地址，还可以添加窗口大小等参数。</p>
+<iframe src="//player.bilibili.com/player.html?aid=928956542&bvid=BV16T4y1P7nD&cid=290986050&page=1" width="800"height="450"scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<h2 id="超链接">超链接</h2>
+<p><code>[]()</code>为超链接格式，[]中为文字内容，()中为地址。</p>
+<p><a href="https://blog.qsgy.tk/post-images/1612168460492.jpg">123</a></p>
+<h2 id="列表">列表</h2>
+<h3 id="有序列表">有序列表</h3>
+<p>数字+.+空格+内容</p>
+<ol>
+<li>A</li>
+<li>B</li>
+<li>C</li>
+</ol>
+<h3 id="无序列表">无序列表</h3>
+<p>-+空格+内容</p>
+<ul>
+<li>A</li>
+<li>C</li>
+<li>B</li>
+</ul>
+<h2 id="表格">表格</h2>
+<table>
+<thead>
+<tr>
+<th>xx</th>
+<th>xx</th>
+<th>xx</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+<h1 id="补充说明">补充说明</h1>
+<p>markdown还可以实现书写公式，流程图，但相对麻烦不常用。</p>
+
+                </div>
+                <div class="clear"></div>
+              </section>
+            </article>
+            <div class="clear"></div>
+
+            <section class="related section">
+              
+              <article class="prev grid-50 tablet-grid-50 grid-parent">
+                <div class="thumb cover lazy loaded" style="background-image: url('https://blog.qsgy.tk/media/images/gridea.jpg');"></div>
+                 <a href="https://blog.qsgy.tk/post/java-ji-chu-yu-fa/" class="full-link"></a>
+                 <div class="info">
+                  <time datetime="2021-02-02">2021-02-02</time>
+                  <h4 class="title white no-margin">Java基础语法</h4>
+                </div>
+                 <span class="epcl-button red">
+                  <img src="https://blog.qsgy.tk/media/images/left-arrow.svg" width="15" alt="Left Arrow">
+                </span>
+                <div class="overlay"></div>
+              </article>
+              
+              
+
+                <div class="clear"></div>
+            </section>
+
+              <div class="clear"></div>
+              
+            
+              <div id="comments" class="bg-white hosted ">
+                <div class="clear"></div>
+<script>
+jQuery(document).ready(function($){
+    $('.vemoji-btn').text('😀');
+    $("#comments").on('click', 'span.vat',function(){
+        $(this).parent('div.vmeta').next("div.vcontent").after($("div.vwrap"));
+        $('textarea#veditor').focus();
+    })
+    if(window.location.hash){
+        var checkExist = setInterval(function() {
+            if ($(window.location.hash).length) {
+                $('html, body').animate({scrollTop: $(window.location.hash).offset().top-200}, 600);
+                clearInterval(checkExist);
+            }
+        }, 100);
+    }
+})
+</script>
+
+              </div>
+            
+
+            </div>
+          </div>
       </main>
-        <footer id="footer" class="grid-container">
+
+          <footer id="footer" class="grid-container">
         <div class="widgets row gradient-effect">
             <div class="default-sidebar border-effect">
               <div class="grid-33 tablet-grid-50 mobile-grid-100">
@@ -235,15 +397,9 @@
 </script>
     
 
-    <script>
-    new Bmdb({
-      type: 'movies',
-      selector: '.section-content',
-      secret: '',
-      noMoreText: '没有更多数据了',
-      limit: 30
-    })
-    </script>
+      
+    <script src="https://blog.qsgy.tk/media/js/functions-post.js"></script>
+
     </div>
     <!-- end: #wrapper -->
   </body>

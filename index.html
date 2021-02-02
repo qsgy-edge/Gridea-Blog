@@ -7,6 +7,12 @@
 <link rel="shortcut icon" href="https://blog.qsgy.tk/favicon.ico">
 <link rel="stylesheet" href="https://blog.qsgy.tk/styles/main.css">
 
+<script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.3.0/raphael.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="http://flowchart.js.org/flowchart-latest.js"></script>
+<!-- <script src="../release/flowchart.min.js"></script> -->
+
+
 <script src="https://blog.qsgy.tk/media/js/jquery.min.js"></script>
 <script src="https://blog.qsgy.tk/media/js/masonry.pkgd.min.js"></script>
 <script src="https://blog.qsgy.tk/media/js/aos.js"></script>
@@ -14,6 +20,7 @@
 <script src="https://blog.qsgy.tk/media/js/view-image.min.js"></script>
 <script src="https://blog.qsgy.tk/media/js/jquery.magnific-popup.min.js"></script>
 <script src="https://blog.qsgy.tk/media/js/functions.js"></script>
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
   </head>
   <body>
     <!-- start: #wrapper -->
@@ -75,7 +82,7 @@
       <div class="hide-on-mobile hide-on-tablet hide-on-desktop">
         <div id="search-lightbox" class="grid-container grid-small grid-parent mfp-hide">
           <div class="search-wrapper section">
-            <form id="gridea-search-form" data-update="1609871740247" action="/search/index.html" class="search-form" _lpchecked="1">
+            <form id="gridea-search-form" data-update="1612255443959" action="/search/index.html" class="search-form" _lpchecked="1">
               <input type="text" name="q" id="s" value="" class="search-field" placeholder="搜点啥..." aria-label="搜点啥..." required="">
               <button type="submit" class="submit" aria-label="Submit">
                 <i class="fa fa-search-line"></i>
@@ -96,50 +103,66 @@
               
               <div class="articles columns-3">
                 
-              <article class="default grid-33 tablet-grid-50 mobile-grid-100 np-mobile post type-post status-publish format-standard has-post-thumbnail hentry">
-                <div class="article-wrapper">
+                <article class="bgstyle grid-33 tablet-grid-50 mobile-grid-100 np-mobile post type-post status-publish format-standard has-post-thumbnail hentry" style="">
+                  <div class="article-wrapper  cover" style="background-image: url('/media/images/gridea.jpg');">
                   <header>
-                    <div class="post-format-image post-format-wrapper">
-                      <div class="featured-image">
-                        <a href="https://blog.qsgy.tk/post/hello-gridea/" class="thumb hover-effect">
-                          <span class="fullimage cover" role="img" aria-label="" style="background-image: url('https://blog.qsgy.tk/post-images/hello-gridea.png');"></span>
-                        </a>
-                        
-                        <div class="tags absolute">
-                          <a href="https://blog.qsgy.tk/tag/mtKNVqTUB/" class="ctag ctag-0 ctag-mtKNVqTUB">Gridea</a>
-                        </div>
-                        
-                      </div>
-                    </div>                    
+                    
                     <div class="meta">
-                      <time datetime="2018-12-12"><i class="fa fa-calendar"></i><span class="lately">2 年前</span></time>
+                      <time datetime="2021-02-02"><i class="fa fa-calendar"></i><span class="lately">39 分钟前</span></time>
                       <div class="clear"></div>
                     </div>
-
-                    <h1 class="title main-title gradient-effect"><a href="https://blog.qsgy.tk/post/hello-gridea/">Hello Gridea</a></h1>
+                    <h1 class="title main-title gradient-effect"><a href="https://blog.qsgy.tk/post/java-ji-chu-yu-fa/">Java基础语法</a></h1>
                   </header>
-
-                  <div class="post-excerpt">
-                      <p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-
-                    <div class="clear"></div>
-                  </div>
-
                   <footer class="author-meta">
                     <a href="" class="author" title="">
                       <span class="author-image cover" style="background-image: url('https://blog.qsgy.tk/images/avatar.png');"></span>
                       <span class="author-name">Gridea</span>
                     </a>
                     
-                    <a href="https://blog.qsgy.tk/post/hello-gridea/#comments" class="comments meta-info alignright" title="">
-                      <span class="comment-count valine-comment-count" data-xid="/hello-gridea/"> </span><i class="fa fa-comment"></i>
+                    <a href="https://blog.qsgy.tk/post/java-ji-chu-yu-fa/#comments" class="comments meta-info alignright" title="">
+                      <span class="comment-count valine-comment-count" data-xid="/java-ji-chu-yu-fa/"> </span><i class="fa fa-comment"></i>
                     </a>
-                    <div id="/hello-gridea/" class="leancloud_visitors views-counter meta-info alignright" title=""><span class="leancloud-visitors-count" style="vertical-align: middle;"></span><i class="fa fa-leancloud"></i></div>
+                    <div id="/java-ji-chu-yu-fa/" class="leancloud_visitors views-counter meta-info alignright" title=""><span class="leancloud-visitors-count" style="vertical-align: middle;"></span><i class="fa fa-leancloud"></i></div>
                     
                     <div class="clear"></div>
                   </footer>
-                  <div class="border"></div>       
+                  <div class="overlay"></div>       
+                </div>
+              </article>
+                
+              
+              
+              
+              
+                
+                <article class="bgstyle grid-33 tablet-grid-50 mobile-grid-100 np-mobile post type-post status-publish format-standard has-post-thumbnail hentry" style="">
+                  <div class="article-wrapper  cover" style="background-image: url('https://blog.qsgy.tk/post-images/11markdown-yu-fa.jpg');">
+                  <header>
+                    
+                      <div class="tags absolute">
+                        <a href="https://blog.qsgy.tk/tag/N9RtM7l8d/" class="ctag ctag-1 ctag-N9RtM7l8d">JavaSE</a>
+                      </div>
+                    
+                    <div class="meta">
+                      <time datetime="2021-02-01"><i class="fa fa-calendar"></i><span class="lately">1 天前</span></time>
+                      <div class="clear"></div>
+                    </div>
+                    <h1 class="title main-title gradient-effect"><a href="https://blog.qsgy.tk/post/11markdown-yu-fa/">1.1Markdown语法</a></h1>
+                  </header>
+                  <footer class="author-meta">
+                    <a href="" class="author" title="">
+                      <span class="author-image cover" style="background-image: url('https://blog.qsgy.tk/images/avatar.png');"></span>
+                      <span class="author-name">Gridea</span>
+                    </a>
+                    
+                    <a href="https://blog.qsgy.tk/post/11markdown-yu-fa/#comments" class="comments meta-info alignright" title="">
+                      <span class="comment-count valine-comment-count" data-xid="/11markdown-yu-fa/"> </span><i class="fa fa-comment"></i>
+                    </a>
+                    <div id="/11markdown-yu-fa/" class="leancloud_visitors views-counter meta-info alignright" title=""><span class="leancloud-visitors-count" style="vertical-align: middle;"></span><i class="fa fa-leancloud"></i></div>
+                    
+                    <div class="clear"></div>
+                  </footer>
+                  <div class="overlay"></div>       
                 </div>
               </article>
                 
@@ -172,13 +195,13 @@
                   
                   
                   <article class="item post-0 post type-post status-publish format-standard has-post-thumbnail hentry">
-                    <a href="https://blog.qsgy.tk/post/about/" class="thumb hover-effect">
+                    <a href="https://blog.qsgy.tk/post/java-ji-chu-yu-fa/" class="thumb hover-effect">
                       <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('/media/images/gridea.jpg');"></span>
                     </a>
                     <div class="info gradient-effect">
-                      <time datetime="2019-01-25">2019-01-25</time>
+                      <time datetime="2021-02-02">2021-02-02</time>
                       <h4 class="title usmall">
-                        <a href="https://blog.qsgy.tk/post/about/">关于</a>
+                        <a href="https://blog.qsgy.tk/post/java-ji-chu-yu-fa/">Java基础语法</a>
                       </h4>
                     </div>
                     <div class="clear"></div>
@@ -187,13 +210,28 @@
                   
                   
                   <article class="item post-1 post type-post status-publish format-standard has-post-thumbnail hentry">
-                    <a href="https://blog.qsgy.tk/post/hello-gridea/" class="thumb hover-effect">
-                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('https://blog.qsgy.tk/post-images/hello-gridea.png');"></span>
+                    <a href="https://blog.qsgy.tk/post/11markdown-yu-fa/" class="thumb hover-effect">
+                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('https://blog.qsgy.tk/post-images/11markdown-yu-fa.jpg');"></span>
                     </a>
                     <div class="info gradient-effect">
-                      <time datetime="2018-12-12">2018-12-12</time>
+                      <time datetime="2021-02-01">2021-02-01</time>
                       <h4 class="title usmall">
-                        <a href="https://blog.qsgy.tk/post/hello-gridea/">Hello Gridea</a>
+                        <a href="https://blog.qsgy.tk/post/11markdown-yu-fa/">1.1Markdown语法</a>
+                      </h4>
+                    </div>
+                    <div class="clear"></div>
+                  </article>
+                  
+                  
+                  
+                  <article class="item post-2 post type-post status-publish format-standard has-post-thumbnail hentry">
+                    <a href="https://blog.qsgy.tk/post/about/" class="thumb hover-effect">
+                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('/media/images/gridea.jpg');"></span>
+                    </a>
+                    <div class="info gradient-effect">
+                      <time datetime="2019-01-25">2019-01-25</time>
+                      <h4 class="title usmall">
+                        <a href="https://blog.qsgy.tk/post/about/">关于</a>
                       </h4>
                     </div>
                     <div class="clear"></div>
@@ -209,7 +247,9 @@
                   <h4 class="widget-title title white bordered">标签云</h4>
                   <div class="tagcloud">
                     
-                      <a href="https://blog.qsgy.tk/tag/mtKNVqTUB/" class="ctag ctag-0 ctag-mtKNVqTUB" aria-label="">Gridea</a>
+                      <a href="https://blog.qsgy.tk/tag/N9RtM7l8d/" class="ctag ctag-0 ctag-N9RtM7l8d" aria-label="">JavaSE</a>
+                    
+                      <a href="https://blog.qsgy.tk/tag/NIEI4_rYt/" class="ctag ctag-1 ctag-NIEI4_rYt" aria-label="">Java全栈学习路线</a>
                     
                   </div>
                   <div class="clear"></div>
@@ -251,7 +291,7 @@
           <a href="https://blog.qsgy.tk"><img src="/media/images/gridea.png" alt=""></a>
         </div>
         <p class="published border-effect">
-          ©2019 共 2 篇文章
+          ©2019 共 3 篇文章
           <br/>
           Theme <a href="https://gridea.dev/" target="_blank">「breek」</a> Powered by <a href="https://gridea.dev/" target="_blank">「Gridea」</a>
         </p>
